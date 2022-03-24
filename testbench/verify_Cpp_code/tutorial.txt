@@ -1,0 +1,14 @@
+----------------------------------------------------------------Verify tính đúng đắn của code C++----------------------------------------------------------------
+
+
+- Đây là các file code mô tả phần cứng của cả kiến trúc RANC được lấy từ github của RANC.
+- Để tiến hành verify tính đúng đắn của code C++, nhóm đã gộp 2 khối "TokenController" và "NeuronBlock" của RANC để tạo ra một khối "neuron_grid" - có chức năng như một mạng neuron mà nhóm cần phải design, đồng thời viết ra test bench cho khối này "tb_neuron_grid".
+
+Các bước verify:
+B1: Tiến hành set up và chạy code C++ như trong file "neuron-grid-experiment-tutorial_Tieng-Viet.docx" hoặc neuron-grid-experiment-tutorial_English.docx".
+B2: Tiến hành compile toàn bộ code trong folder "Code" bằng trình giả lập (ModelSim, ...)
+B3: Set up file "tb_neuron_grid.v" giống như trong experiment tutorial - Chương 3.
+B4: Chạy giả lập và xem kết quả:
+	+ Nếu kết quả đúng 100%, chứng tỏ code C++ chạy đúng
+	+ Nếu kết quả sai ở một vài tick trong trường hợp giả lập với nhiều tick, có khả năng code C++ bị sai hoặc không sai mà lỗi sai này đến từ việc tràn bit do gen ngẫu nhiên
+	+ Nếu kết quả sai trong trường hợp giả lập với 1 tick, hoặc sai ở rất nhiều tick trong trường hợp giả lập với nhiều tick, code C++ bị sai.

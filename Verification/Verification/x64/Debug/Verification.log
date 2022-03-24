@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\hoang\Desktop\Group03\Verification\Verification\Source.cpp(21,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hoang\Desktop\Group03\Verification\Verification\Source.cpp(22,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\hoang\Desktop\Group03\Verification\Verification\Source.cpp(54,29): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\hoang\Desktop\Group03\Verification\Verification\Source.cpp(104,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hoang\Desktop\Group03\Verification\Verification\Source.cpp(114,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hoang\Desktop\Group03\Verification\Verification\Source.cpp(126,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\hoang\Desktop\Group03\Verification\Verification\Source.cpp(83): warning C4715: 'decimal_to_binary': not all control paths return a value
+  Verification.vcxproj -> C:\Users\hoang\Desktop\Group03\Verification\Verification\x64\Debug\Verification.exe
